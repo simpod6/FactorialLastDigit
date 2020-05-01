@@ -8,9 +8,6 @@ class TestFact(TestCase):
     
     def setUp(self):
         pass
-
-    def test_true(self):
-        self.assertEqual(1,1)
     
     def test_getLastDigit(self):        
         for i in range(1, len(LAST_DIGITS) + 1):            
